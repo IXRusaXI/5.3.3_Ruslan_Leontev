@@ -9,7 +9,7 @@ import { BrowserRouter } from 'react-router-dom';
 import '@mantine/core/styles.css';
 import { theme } from './theme.ts'
 
-const base = '/4.2.3_Ruslan_Leontev/';
+const base = '/5.3.3_Ruslan_Leontev/';
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
