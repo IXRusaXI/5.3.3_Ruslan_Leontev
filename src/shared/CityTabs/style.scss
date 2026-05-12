@@ -1,0 +1,7 @@
+.city-tabs {
+    .mantine-Tabs-list {
+        &::before {
+            content: none !important;
+        }
+    }
+}

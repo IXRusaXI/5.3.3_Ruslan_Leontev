@@ -1,0 +1,16 @@
+.active-link {
+    color: #000000 !important;
+
+    &::after {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 55%;
+        transform: translateY(-50%);
+        right: -20px;
+        border-radius: 50%;
+        width: 8px;
+        height: 8px;
+        background-color: #001691;
+    }
+}

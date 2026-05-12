@@ -1,0 +1,17 @@
+.mantine-Container-root .skill-template {
+    border-radius: 8px;
+    padding: 4px;
+    box-shadow: 0 0 3px 0 gray;
+}
+
+.apply-button {
+  &:hover {
+    background-color: #3b6fb4 !important;
+    box-shadow: 0 0 3px 0 rgb(0, 0, 0);
+  }
+
+  &:active {
+    background-color: #1434c4 !important;
+    box-shadow: 0 0 3px 2px gray;
+  }
+}
