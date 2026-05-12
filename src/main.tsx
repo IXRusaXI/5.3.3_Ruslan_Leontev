@@ -12,7 +12,7 @@ import { theme } from './theme.ts'
 const base = '/4.2.3_Ruslan_Leontev/';
 
 createRoot(document.getElementById('root')!).render(
-  // <StrictMode>
+  <StrictMode>
     <BrowserRouter basename={base}>
       <Provider store={store}>
         <MantineProvider theme={theme}>
@@ -20,5 +20,5 @@ createRoot(document.getElementById('root')!).render(
         </MantineProvider>
       </Provider>
     </BrowserRouter>
-  // {/* </StrictMode>, */}
+  </StrictMode>,
 )

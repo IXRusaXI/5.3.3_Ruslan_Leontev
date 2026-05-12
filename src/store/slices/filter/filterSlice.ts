@@ -10,7 +10,7 @@ export interface FilterState {
 
 const initialState: FilterState = {
     searchString: '',
-    skills: ['TypeScript', 'React', 'Redux'],
+    skills: [],
     city: 'Все города'
 };
 

@@ -1,4 +1,4 @@
-import { Button, Container, Flex, Group, Image, Stack, Text, Title } from "@mantine/core"
+import { Button, Container, Group, Image, Stack, Text, Title } from "@mantine/core"
 import ShadowWrapper from "../../shared/ShadowWrapper/ShadowWrapper"
 import ErrorImage from './../../assets/ErrorKitty.png'
 import { useNavigate } from "react-router-dom";
